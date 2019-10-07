@@ -1,79 +1,98 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 nav.top-nav {
-    opacity: .8;
-}
-.slider {
-    position: relative;
-    margin-top: -55px;
+  opacity: 0.8;
 }
 
+.logo {
+  width: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.slider {
+  position: relative;
+  margin-top: -60px;
+}
 
 .slider-item {
-    background-repeat: no-repeat !important;
-    background-position: center center !important;
-    background-size: cover !important;
-    height: 850px;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  height: 850px;
 }
 
 .slick-slider {
-    -webkit-user-select: text;
-    -khtml-user-select: text;
-    -moz-user-select: text;
-    -ms-user-select: text;
-    user-select: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
 }
 
 .slick-arrow {
-    position: absolute !important;
-    top: 50%;
-    bottom: 50%;
-    background: none;
-    border:none;
-    color: #fff;
-    height: 25px;
-    z-index: 2;
+  position: absolute !important;
+  top: 50%;
+  bottom: 50%;
+  background: none;
+  border: none;
+  color: #fff;
+  height: 25px;
+  z-index: 2;
 }
 .slick-arrow:focus {
-    background: none;
-    outline: 1px solid #fff;
+  background: none;
+  outline: 1px solid #fff;
 }
 
 .slick-disabled {
-    color: rgba(255,255,255,.25);
-    cursor: default !important;
+  color: rgba(255, 255, 255, 0.25);
+  cursor: default !important;
 }
 
 .slick-next {
-    right: 35px;
+  right: 35px;
 }
 
-
 .slick-prev {
-    left: 35px;
+  left: 35px;
 }
 
 .slider-item {
-    position: relative;
+  position: relative;
 }
 
 .slider-text {
-    z-index: 3;
-    position: absolute;
-    top: 300px;
-    width: 450px;
-    color: #fff;
-    left: 200px;
+  z-index: 3;
+  position: absolute;
+  top: 300px;
+  width: 550px;
+  color: #fff;
+  left: 200px;
 }
 
 .slider-text .slider-text-btn {
-    color: #fff;
-    border-color: #fff;
+  color: #fff;
+  border-color: #fff;
 }
 
 .slider-text h2 {
-    font-size: 3rem;
-    font-weight: bold;
+  font-family: "Notable", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 10px;
+  margin-bottom: 45px;
+}
+
+.slider-text p {
+  margin-bottom: 24px;
+}
+
+.slider-text button {
+  padding: 8px 25px;
 }
