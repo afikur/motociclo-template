@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav.top-nav {
+    opacity: .8;
+}
+.slider {
+    position: relative;
+    margin-top: -55px;
+}
+
+
+.slider-item {
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    height: 850px;
+}
+
+.slick-slider {
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+.slick-arrow {
+    position: absolute !important;
+    top: 50%;
+    bottom: 50%;
+    background: none;
+    border:none;
+    color: #fff;
+    height: 25px;
+    z-index: 2;
+}
+.slick-arrow:focus {
+    background: none;
+    outline: 1px solid #fff;
+}
+
+.slick-disabled {
+    color: rgba(255,255,255,.25);
+    cursor: default !important;
+}
+
+.slick-next {
+    right: 35px;
+}
+
+
+.slick-prev {
+    left: 35px;
+}
+
+.slider-item {
+    position: relative;
+}
+
+.slider-text {
+    z-index: 3;
+    position: absolute;
+    top: 300px;
+    width: 450px;
+    color: #fff;
+    left: 200px;
+}
+
+.slider-text .slider-text-btn {
+    color: #fff;
+    border-color: #fff;
+}
+
+.slider-text h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
